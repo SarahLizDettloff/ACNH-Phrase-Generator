@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/acnh-phrase-generator/static/css/main.165a1cb2.chunk.css",
+    "main.css": "/acnh-phrase-generator/static/css/main.74b2f8fb.chunk.css",
     "main.js": "/acnh-phrase-generator/static/js/main.9ac66f6a.chunk.js",
     "main.js.map": "/acnh-phrase-generator/static/js/main.9ac66f6a.chunk.js.map",
     "runtime-main.js": "/acnh-phrase-generator/static/js/runtime-main.9fcd3637.js",
@@ -10,7 +10,7 @@
     "static/js/3.fe2f683d.chunk.js": "/acnh-phrase-generator/static/js/3.fe2f683d.chunk.js",
     "static/js/3.fe2f683d.chunk.js.map": "/acnh-phrase-generator/static/js/3.fe2f683d.chunk.js.map",
     "index.html": "/acnh-phrase-generator/index.html",
-    "static/css/main.165a1cb2.chunk.css.map": "/acnh-phrase-generator/static/css/main.165a1cb2.chunk.css.map",
+    "static/css/main.74b2f8fb.chunk.css.map": "/acnh-phrase-generator/static/css/main.74b2f8fb.chunk.css.map",
     "static/js/2.adc8a8dc.chunk.js.LICENSE.txt": "/acnh-phrase-generator/static/js/2.adc8a8dc.chunk.js.LICENSE.txt",
     "static/media/home.css": "/acnh-phrase-generator/static/media/home.9676d153.jpg",
     "static/media/App.css": "/acnh-phrase-generator/static/media/grasspurple.6f442390.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.9fcd3637.js",
     "static/js/2.adc8a8dc.chunk.js",
-    "static/css/main.165a1cb2.chunk.css",
+    "static/css/main.74b2f8fb.chunk.css",
     "static/js/main.9ac66f6a.chunk.js"
   ]
 }
