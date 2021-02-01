@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ACNH-Phrase-Generator/static/css/main.cb49869f.chunk.css",
+    "main.js": "/ACNH-Phrase-Generator/static/js/main.9ac66f6a.chunk.js",
+    "main.js.map": "/ACNH-Phrase-Generator/static/js/main.9ac66f6a.chunk.js.map",
+    "runtime-main.js": "/ACNH-Phrase-Generator/static/js/runtime-main.271bbe1b.js",
+    "runtime-main.js.map": "/ACNH-Phrase-Generator/static/js/runtime-main.271bbe1b.js.map",
+    "static/js/2.adc8a8dc.chunk.js": "/ACNH-Phrase-Generator/static/js/2.adc8a8dc.chunk.js",
+    "static/js/2.adc8a8dc.chunk.js.map": "/ACNH-Phrase-Generator/static/js/2.adc8a8dc.chunk.js.map",
+    "static/js/3.fe2f683d.chunk.js": "/ACNH-Phrase-Generator/static/js/3.fe2f683d.chunk.js",
+    "static/js/3.fe2f683d.chunk.js.map": "/ACNH-Phrase-Generator/static/js/3.fe2f683d.chunk.js.map",
+    "index.html": "/ACNH-Phrase-Generator/index.html",
+    "static/css/main.cb49869f.chunk.css.map": "/ACNH-Phrase-Generator/static/css/main.cb49869f.chunk.css.map",
+    "static/js/2.adc8a8dc.chunk.js.LICENSE.txt": "/ACNH-Phrase-Generator/static/js/2.adc8a8dc.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/ACNH-Phrase-Generator/static/media/home.9676d153.jpg",
+    "static/media/App.css": "/ACNH-Phrase-Generator/static/media/grasspurple.6f442390.png",
+    "static/media/greeting.css": "/ACNH-Phrase-Generator/static/media/greeting.a5c27424.jpg",
+    "static/media/catchphrase.css": "/ACNH-Phrase-Generator/static/media/phrase.33fddbb5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.271bbe1b.js",
+    "static/js/2.adc8a8dc.chunk.js",
+    "static/css/main.cb49869f.chunk.css",
+    "static/js/main.9ac66f6a.chunk.js"
+  ]
+}
