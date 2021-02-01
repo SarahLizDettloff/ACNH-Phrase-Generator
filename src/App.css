@@ -1,38 +1,189 @@
 .App {
-  text-align: center;
+	text-align: center;
+	scroll-behavior: smooth;
+	overflow: hidden;
+	background-color: #101847;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::selection {
+	background-color: #75807f;
+	color: #D14990;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-moz-selection {
+	background-color: #85EFF5;
+	color: #D14990;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+	color: black;
+	padding: 20;
+	margin: 10px;
+}
+
+.link {
+	padding: 20;
+	margin: 10px;
 }
 
 .App-link {
-  color: #61dafb;
+	color: black;
+}
+
+body {
+	line-height: 1;
+	min-height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+html {
+	min-height: 100%;
+	background-color: #101847;
+	overflow: hidden;
+}
+
+.topnav {
+	border: 5px ridge #FFCE4E;
+	background-color: #333;
+	overflow: hidden;
+	background-image: url("./assets/grasspurple.png");
+}
+
+.topnav a {
+	float: left;
+	font-weight: 900;
+	display: block;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'FinkHeavy';
+	color: #FFCE4E;
+	text-shadow: #521b00 2px 2px 2px;
+	text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+	footer {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		clear: both;
+		top: 77%;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+	.emailFooter {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		top: 80%;
+		clear: both;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+	.emailFooter a {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		clear: both;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+	footer {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		clear: both;
+		top: 77%;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+	.emailFooter {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		clear: both;
+		top: 80%;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+	.emailFooter a {
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		width: 100%;
+		padding: 0;
+		clear: both;
+		bottom: 2%;
+		position: absolute;
+		font-weight: 900;
+		display: block;
+		text-align: center;
+		padding: 12px 14px;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: 'FinkHeavy';
+	}
+}
+
+.topnav a:hover {
+	background-color: #6A5BB7;
+	color: #FFCE4E;
+}
+
+@font-face {
+	font-family: 'FinkHeavy';
+	src: local('FinkHeavy'), url(./assets/fonts/FinkHeavy.ttf) format('woff');
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
+

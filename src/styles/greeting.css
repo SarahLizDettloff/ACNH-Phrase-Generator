@@ -1,0 +1,126 @@
+
+
+.App {
+	text-align: center;
+	scroll-behavior: smooth;
+	overflow: scroll;
+	padding: 10px;
+}
+
+.complete {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.greet {
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #101847;
+	background-image: url("../assets/greeting.jpg");
+	overflow: hidden;
+	width: 100%;
+	height: 800px;
+}
+
+.containerGreet {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+
+.greetText {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	top: 60%;
+	right: 25%;
+	left: 50%;
+	margin-left: -150px;
+	font-family: 'FinkHeavy';
+	font-size: 28px;
+	color: #6e6b6b;
+}
+
+@media screen and (min-width: 601px) {
+	.hGreet {
+		font-family: 'FinkHeavy';
+		font-size: 35px;
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.hGreet {
+		font-family: 'FinkHeavy';
+		font-size: 35px;
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		text-align: center;
+	}
+}
+
+.greetbutton {
+	box-shadow: inset 0px 1px 0px 0px #fce2c1;
+	background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color: #ffc477;
+	border-radius: 6px;
+	border: 1px solid #eeb44f;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: 'FinkHeavy';
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #cc9f52;
+}
+
+.greetbutton:hover {
+	background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color: #fb9e25;
+}
+
+.greetbutton:active {
+	position: relative;
+	top: 1px;
+}
+
+.hGreetContainer {
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 2;
+}
+
+a {
+	color: #b8bfc1;
+	padding: 15px;
+	margin: 10px;
+}
+
+@font-face {
+	font-family: 'FinkHeavy';
+	src: local('FinkHeavy'), url(../assets/fonts/FinkHeavy.ttf) format('woff');
+}
+
+.App-link {
+	color: black;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+

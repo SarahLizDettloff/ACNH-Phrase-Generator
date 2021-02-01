@@ -1,0 +1,96 @@
+
+
+.App {
+	text-align: center;
+	scroll-behavior: smooth;
+	overflow: scroll;
+	padding: 10px;
+}
+
+.home {
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #101847;
+	background-image: url("../assets/home.jpg");
+	overflow: hidden;
+	width: 100%;
+	height: 800px;
+}
+
+@media only screen and (max-width: 767px) {
+	home {
+		background-image: url("../assets/home.jpg");
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.h1Home {
+		font-size: 5em;
+		text-align: center;
+		font-weight: 900;
+		font-family: 'FinkHeavy';
+		letter-spacing: 8px;
+		animation: animate 10s linear infinite;
+		-webkit-text-fill-color: #FFCE4E;
+		text-shadow: 0 1px 0 #C18509, 0 2px 0 #CA8913, 0 3px 0 #C18509, 0 4px 0 #975C18, 0 5px 0 #521b00, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.h1Home {
+		font-size: 4em;
+		text-align: center;
+		font-weight: 900;
+		font-family: 'FinkHeavy';
+		letter-spacing: 8px;
+		animation: animate 10s linear infinite;
+		-webkit-text-fill-color: #FFCE4E;
+		text-shadow: 0 1px 0 #C18509, 0 2px 0 #CA8913, 0 3px 0 #C18509, 0 4px 0 #975C18, 0 5px 0 #521b00, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.h2Home {
+		font-family: 'FinkHeavy';
+		font-size: 35px;
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.h2Home {
+		font-family: 'FinkHeavy';
+		font-size: 35px;
+		color: #FFCE4E;
+		text-shadow: #521b00 2px 2px 2px;
+		text-align: center;
+	}
+}
+
+a {
+	color: #b8bfc1;
+	padding: 15px;
+	margin: 10px;
+}
+
+@font-face {
+	font-family: 'FinkHeavy';
+	src: local('FinkHeavy'), url(../assets/fonts/FinkHeavy.ttf) format('woff');
+}
+
+.App-link {
+	color: black;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
