@@ -6,13 +6,11 @@
 ## Built with
 * [React](https://github.com/facebook/create-react-ap)
 
-* Uses [three.js](https://github.com/mrdoob/three.js/).
-
 ## Getting Started
 
 ```bash
 git clone https://github.com/SarahLizDettloff/acnh-phrase-generator.git
-cd dev-portfolio
+cd acnh-phrase-generator
 npm install
 npm start
 open http://localhost:3000
