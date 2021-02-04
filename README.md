@@ -1,6 +1,23 @@
 [![Build Status](https://travis-ci.com/SarahLizDettloff/acnh-phrase-generator.svg?branch=master)](https://travis-ci.com/SarahLizDettloff/acnh-phrase-generator)
-# [acnh-phrase-generator](https://sarahlizdettloff.github.io/acnh-phrase-generator)
-> Built with React, simple greeting and catchphrase generator for Animal Crossing New Horizons. 
+
+
+<br />
+<p align="center">
+
+<a href="https://sarahlizdettloff.github.io/acnh-phrase-generator">
+    <img src="screenshot.png" alt="Logo" width="474" height="357">
+  </a>
+  <h3 align="center">acnh-phrase-generator</h3>
+  <h4 align="center">Animal Crossing Greeting and Phrase Generator</h3>
+
+  <p align="center">
+    <a href="https://sarahlizdettloff.github.io/acnh-phrase-generator">View</a>
+    ·
+    <a href="https://github.com/sarahlizdettloff/acnh-phrase-generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/sarahlizdettloff/acnh-phrase-generator/issues">Request Feature</a>
+  </p>
+</p>
 
 
 ## Built with
