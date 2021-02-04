@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.com/SarahLizDettloff/acnh-phrase-generator.svg?branch=master)](https://travis-ci.com/SarahLizDettloff/acnh-phrase-generator)
 
 
-<br />
 <p align="center">
 
 <a href="https://sarahlizdettloff.github.io/acnh-phrase-generator">
